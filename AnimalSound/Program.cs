@@ -1,23 +1,9 @@
-﻿using System;
+﻿using AnimalSound.Library;
+using System;
 using System.Collections.Generic;
 
 namespace AnimalSounds
 {
-    class Animal
-    {
-        public string Type { get; set; }
-        public string Sound { get; set; }
-        public Animal(string type, string sound)
-        {
-            Type = type;
-            Sound = sound;
-        }
-
-        public void MakeSound()
-        {
-            Console.WriteLine($"{Type} makes sound: {Sound}");
-        }
-    }
 
     class Program
     {
