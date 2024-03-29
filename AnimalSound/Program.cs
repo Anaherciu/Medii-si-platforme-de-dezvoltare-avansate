@@ -11,9 +11,9 @@ namespace AnimalSounds
         {
             List<Animal> animals = new List<Animal>
             {
-                new Animal("Cat", "Meow"),
-                new Animal("Dog", "Woof"),
-                new Animal("Cow", "Moo")
+                new Cat("Cat", "Meow"),
+                new Dog("Dog", "Woof"),
+                new Cow("Cow", "Moo")
             };
 
             foreach (var animal in animals)
